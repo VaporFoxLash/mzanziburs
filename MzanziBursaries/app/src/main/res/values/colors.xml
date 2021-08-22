@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1280E0</color>
+    <color name="colorPrimaryDark">#22B0E7</color>
+    <color name="colorPrimaryLight">#5CF1FF</color>
+    <color name="colorAccent">#1e88e5</color>
+    <color name="colorAccentDark">#005cb2</color>
+    <color name="colorAccentLight">#1886ED</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorRipple">@color/white_2</color>
+    <color name="bg_color">#05060D</color>
+    <color name="grad_bg">#050060</color>
+    <color name="tool_color">#0E62AC</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_2">#33FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

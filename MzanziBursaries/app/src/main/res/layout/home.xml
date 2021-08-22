@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background_grad">
+
+<!--    <com.google.android.material.appbar.AppBarLayout-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/toolbar"-->
+<!--            android:background="@color/tool_color"-->
+<!--            android:minHeight="?attr/actionBarSize"-->
+<!--            android:theme="@style/AppTheme">-->
+
+<!--&lt;!&ndash;            <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="60dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="60dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/logo"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:src="@drawable/uation"/>&ndash;&gt;-->
+
+
+<!--        </androidx.appcompat.widget.Toolbar>-->
+<!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Available SA Bursaries"
+                android:textSize="30dp"
+                android:textColor="#CCCACA"
+                android:textStyle="bold"
+                android:fontFamily="casual"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Getting funding for your studies shouldn't be a hustle!"
+                android:textStyle="bold"
+                android:textColor="#AE9E9E"
+                android:textSize="13dp"/>
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="58dp"-->
+<!--                android:layout_height="54dp"-->
+<!--                android:src="@drawable/uation" />-->
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+            <Button
+                android:id="@+id/nsfas"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_gradient1"
+                android:text="NSFAS"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <Button
+                android:id="@+id/teaching"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:text="TEACHING/EDUCATION"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_gradient1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/medicine"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:text="MEDICINE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_gradient1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+            <Button
+                android:id="@+id/science"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:text="SCIENCE"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_gradient1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <Button
+                android:id="@+id/engineering"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:text="ENGINEERING"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_gradient1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/law"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:text="LAW"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_gradient1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/dhet"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:text="DHET"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_gradient2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/commerce"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:text="COMMERCE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_gradient1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btnAPS"
+                android:text="APS calculator"
+                android:layout_width="160dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/btn_gradient1"
+                android:layout_height="60dp"/>
+
+            <Button
+                android:id="@+id/btnLearnerships"
+                android:text="LEARNERSHIPS"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_gradient1"
+                android:layout_margin="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"/>
+
+
+</LinearLayout>
